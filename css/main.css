@@ -8,6 +8,14 @@ body {
 	font-size:25 px;
 	line-height:2;
 }
+.main content {
+	width: 200 px;
+	border: 10 px;
+	padding: 20 px;
+	margin: 20 px;
+	height: 400 px;
+	background-color:(255,137,86,.8);
+}
 
 #contact {
 	color: #00675A;
