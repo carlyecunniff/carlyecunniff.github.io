@@ -1,8 +1,17 @@
+* {margin:0; padding:0; border-box: box-sizing;}*
 body {
 	background-image: url(../images/carlyeboot.jpg);
 	background-size:cover;
 	color: #FF5549;
 	text-align:center;
-	font-family: Palatino;
+	font-family: Palatino, Big Caslon, Georgia;
 	font-size:16 px;
+}
+h1 {
+	text-align:left;
+	font-size:22 px;
+}
+section#maincontent{
+	height:100vh;
+	background:rgba (255, 137,86, .6;)
 }
