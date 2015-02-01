@@ -11,7 +11,9 @@ h1 {
 	text-align:left;
 	font-size:22 px;
 }
-section#maincontent{
+section#maincontent div {
 	height:100vh;
+	width:25%;
 	background:rgba (255, 137,86, .6;)
+	padding:400px 0 0 200px;
 }
