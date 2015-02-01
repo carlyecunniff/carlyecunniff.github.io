@@ -5,7 +5,7 @@ body {
 	color: #FF5549;
 	text-align:center;
 	font-family: Palatino, Big Caslon, Georgia;
-	font-size:16 px;
+	font-size:25 px;
 }
 h1 {
 	text-align:left;
@@ -19,4 +19,8 @@ h1 {
 }
 #contact {
 	color: #00675A;
+}
+hr {
+	color: #00675A;
+	size: 12 px;
 }
