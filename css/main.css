@@ -12,13 +12,16 @@ h3 {
 	font-style: italic;
 }
 div.maincontent {
-	height: 100vh;
+	height: 75vh;
 }
 div.maincontent {
 	padding: 400 px o o 200 px;
 }
 div.maincontent {
 	background-color:rgba(255,137,86,.5);
+}
+div.maincontent {
+	color:#00675A;
 }
 
 #contact {
