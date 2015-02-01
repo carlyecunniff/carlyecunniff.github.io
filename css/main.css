@@ -10,6 +10,7 @@ body {
 }
 h3 {
 	font-style: italic;
+	font-family:Candara, Avant Garde;
 }
 div.maincontent {
 	height: 50vh;
