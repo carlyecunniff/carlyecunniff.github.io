@@ -11,15 +11,14 @@ body {
 h3 {
 	font-style: italic;
 }
-.maincontent {
-	color:#FF5549;
-	width: 200 px;
-	border:10 px solid #99c;
-	border: 10 px;
-	padding: 20 px;
-	margin: 20 px;
-	height: 400 px;
-	background-color:(255,137,86,);
+div.maincontent {
+	height: 100vh;
+}
+div.maincontent {
+	padding: 400 px o o 200 px;
+}
+div.maincontent {
+	background-color:red;
 }
 
 #contact {
