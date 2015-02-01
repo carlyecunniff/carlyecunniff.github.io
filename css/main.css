@@ -7,27 +7,10 @@ body {
 	font-family: Palatino, Big Caslon, Georgia;
 	font-size:25 px;
 }
-h1 {
-	text-align:left;
-	font-size:22 px;
-}
-.maincontent  {
-	text-align:center;
-	font-size:25 px;
-	background-color:255,137,86;
-	color:#FF5549;
-	
-}
-#subtitle {
-	text-align:center;
-	font-size:35 px;
-	font-weight:bold;
-	font-style;italic;
-}
+
 #contact {
 	color: #00675A;
 }
 hr {
-	color: #00675A;
 	size: 12 px;
 }
