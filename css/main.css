@@ -9,6 +9,7 @@ body {
 	line-height:2;
 }
 .main content {
+	color:red;
 	width: 200 px;
 	border:10 px solid #99c;
 	border: 10 px;
