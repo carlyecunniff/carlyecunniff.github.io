@@ -10,6 +10,7 @@ body {
 }
 .main content {
 	width: 200 px;
+	border:10 px solid #99c;
 	border: 10 px;
 	padding: 20 px;
 	margin: 20 px;
