@@ -8,8 +8,11 @@ body {
 	font-size:25 px;
 	line-height:2;
 }
+h3 {
+	font-style: italic;
+}
 .maincontent {
-	color:red;
+	color:#FF5549;
 	width: 200 px;
 	border:10 px solid #99c;
 	border: 10 px;
