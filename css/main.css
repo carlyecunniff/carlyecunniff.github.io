@@ -17,6 +17,12 @@ h1 {
 	background:rgba (255, 137,86, .6;)
 	
 }
+#subtitle {
+	text-align:center;
+	font-size:25 px;
+	font-weight:bold;
+	font-style;italic;
+}
 #contact {
 	color: #00675A;
 }
