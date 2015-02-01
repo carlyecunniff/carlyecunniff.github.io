@@ -1,5 +1,8 @@
 body {
 	background-image: url(../images/carlyeboot.jpg);
 	background-size:cover;
-	color: Salmon;
+	color: #FF5549;
+	text-align:center;
+	font-family: Palatino;
+	font-size:16 px;
 }
