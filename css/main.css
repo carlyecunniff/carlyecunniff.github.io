@@ -8,9 +8,13 @@ body {
 	font-size:25 px;
 	line-height:2;
 }
+h1 {
+	text-align:left;
+}
 h3 {
 	font-style: italic;
 	font-family:Candara, Avant Garde;
+	font-size:32 px;
 }
 div.maincontent {
 	height: 50vh;
@@ -30,4 +34,7 @@ div.maincontent {
 }
 hr {
 	size: 12 px;
+}
+.contact{
+	color:#00675A;
 }
