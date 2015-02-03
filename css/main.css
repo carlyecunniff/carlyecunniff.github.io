@@ -18,12 +18,13 @@ section.maincontent div {
 }
 h1 {
 	font-size:4em;
-	padding-left:3em
+	padding-left:1em
 }
 p.slogan {
 	font-style: bold;
 	font-family:'Candara', 'Avant Garde', sans-serif;
 	font-size:2em;
+	padding-left: 3em
 }
 a {
 	color: #1FA889;
