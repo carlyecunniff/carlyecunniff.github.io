@@ -2,18 +2,22 @@
 body {
 	background-image: url(../images/carlyeboot.jpg);
 	background-size:cover;
+	background-attachment:fixed;
 	color: #FF5549;
 	font-family: 'Palatino', 'Big Caslon', Georgia, serif;
-	line-height:1.2em;
 }
 section.maincontent {
 	background-color:rgba(255,137,86,.5);
 	color:#67260A;
-	font-size: 1.25em;
-	padding: 400px 0 0 200px;
+	margin: 400px 0 0 0;
+	padding:2em;
+}
+section.maincontent div {
+	margin:0 auto;
+	width:75em;
 }
 h1 {
-	font-size:7em;
+	font-size:4em;
 }
 p.slogan {
 	font-style: bold;
