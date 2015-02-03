@@ -1,37 +1,26 @@
-* {margin:0; padding:0; border-box: box-sizing;}*
+* {margin:0; padding:0; box-sizing:border-box;}
 body {
 	background-image: url(../images/carlyeboot.jpg);
 	background-size:cover;
 	color: #FF5549;
-	text-align:center;
-	font-family: Palatino, Big Caslon, Georgia;
-	line-height:2;
+	font-family: 'Palatino', 'Big Caslon', Georgia, serif;
+	line-height:1.2em;
+}
+section.maincontent {
+	background-color:rgba(255,137,86,.5);
+	color:#67260A;
+	font-size: 1.25em;
+	padding: 400px 0 0 200px;
 }
 h1 {
-	text-align:left;
-	font-size:7 em;
+	font-size:7em;
 }
-h3 {
+p.slogan {
 	font-style: bold;
-	font-family:Candara, Avant Garde;
-	font-size:20 em;
+	font-family:'Candara', 'Avant Garde', sans-serif;
+	font-size:2em;
 }
-div.maincontent {
-	height: 50vh;
-}
-div.maincontent {
-	padding: 400 px o o 200 px;
-}
-div.maincontent {
-	background-color:rgba(255,137,86,.5);
-}
-div.maincontent {
-	color:#67260A;
-}
-div.maincontent {
-	font-size: 20 px;
-}
-contact {
+a {
 	color: #00675A;
 }
 
