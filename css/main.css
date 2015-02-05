@@ -11,6 +11,7 @@ section.maincontent {
 	color:#FFC2AA;
 	margin: 150px 0 0 0;
 	padding:3em  ;
+	line-height:2em;
 }
 section.maincontent div {
 	margin:0 auto;
@@ -26,7 +27,16 @@ p.slogan {
 	font-size:2em;
 	padding-left: 3em
 }
+ul {
+	padding:2em;
+}
+p.contact {
+	padding:1em;
+	font-style:bold;
+	font-size:1.5em;
+	font-family:'Candara','Avant Garde',sans-serif;
+}
 a {
-	color: #1FA889;
+	color: #142924;
 }
 
