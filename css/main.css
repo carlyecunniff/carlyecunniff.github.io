@@ -4,8 +4,10 @@ body {
 	background-size:cover;
 	background-attachment:fixed;
 	color: #FF5549;
-	font-family: 'Palatino', 'Big Caslon', Georgia, serif;
+	font-family: 'Lato', sans-serif;
+	
 }
+
 section.maincontent {
 	background-color:rgba(243,84,73,.5);
 	color:#FFC2AA;
@@ -17,15 +19,24 @@ section.maincontent div {
 	margin:0 auto;
 	width:75em;
 }
+
 h1 {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
 	font-size:4em;
-	padding-left:1em
+	text-align:center;
+
+}
+h2 {
+	font-family: 'Lato', sans-serif;
+	text-align:left;
 }
 p.slogan {
-	font-style: bold;
-	font-family:'Candara', 'Avant Garde', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size:2em;
-	padding-left: 3em
+	text-align:right;
+	margin-right:5em;
+	
 }
 ul {
 	padding:2em;
@@ -34,7 +45,7 @@ p.contact {
 	padding:1em;
 	font-style:bold;
 	font-size:1.5em;
-	font-family:'Candara','Avant Garde',sans-serif;
+	font-family: 'Playfair Display', serif;
 }
 a {
 	color: #142924;
