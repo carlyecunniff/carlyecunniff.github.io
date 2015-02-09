@@ -50,4 +50,10 @@ p.contact {
 a {
 	color: #142924;
 }
-
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
