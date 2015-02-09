@@ -21,6 +21,7 @@ section.maincontent div {
 }
 
 h1 {
+	float:left;
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	font-size:4em;
@@ -32,14 +33,11 @@ h2 {
 	text-align:left;
 }
 p.slogan {
+	clear:both;
 	font-family: 'Playfair Display', serif;
 	font-size:2em;
-	text-align:right;
 	margin-right:5em;
 	
-}
-ul {
-	padding:2em;
 }
 p.contact {
 	padding:1em;
@@ -47,8 +45,17 @@ p.contact {
 	font-size:1.5em;
 	font-family: 'Playfair Display', serif;
 }
+ul {
+	padding:2em;
+}
 a {
 	color: #142924;
+}
+img {
+	display:block;
+	float:left;
+	margin:1em;
+	width:5em;
 }
 .clearfix:after { 
 	content: "."; 
