@@ -76,19 +76,8 @@ span {
 	letter-spacing:.05em;
 
 }
-footer {
-	clear:both;
-	color:#FF5749;
-	margin-top:.5em;
-	margin-right:1em;
-	font-size:2em;
-	text-decoration:none;
-	float:right;
-	font-family: 'Lato', sans-serif;
-}
-footer a:hover {
-	color: #29BD79;
-}
+
+
 
 
 
