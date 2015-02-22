@@ -1,41 +1,68 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 body {
-	background-image: url(../images/carlyeboot.jpg);
-	background-size:cover;
-	background-attachment:fixed;
 	color: #FF5549;
 }
 header {
-	background:rgba(219,54,41,.3);
 	margin-top: .5em;
 	color:#FF5749;
 }
 
-section.maincontent {
-	background-color:rgba(243,84,73,.5);
-	color:#FFC2AA;
-	margin: 150px 0 0 0;
-	padding:3em  ;
-	line-height:2em;
-}
-section.maincontent div {
-	margin:0 auto;
-	width:75em;
-}
-
 h1 {
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	font-size:5em;
+	font-family: 'Lato', sans-serif; 
+	font-size:3em;
 	float:left;
-	margin-top: 1em;
+	margin-top: 2em;
 	
+}
+.navbar {
+	float:right;
+	list-style:none;
+	padding:1em;
+	margin:1em;
+}
+.navbar a{
+	padding:1em;
+	font-family:'Lato', sans-serif;
+	color:#FF5749;
+	text-decoration:none;
+	font-size:2em;
+}
+.navbar a:hover {
+	color: #29BD79;
+}
+.line {
+	clear:both;
+	color:#29BD79;
+	heigth:30px;
+	width:75%;
+	margin-left:5em;
+	margin-right:5em;
+	
+}
+.wrapper {
+	margin:2em;
+}
+.maincontent {
+	width:68%;
+	padding:2%;
+	float:left;
+	margin-left:2em;
+	text-align:left;
+}
+.image{
+	width:24%;
+	float:right;
+	margin-right:4em;
+}
+p.maincontent{
+	clear:both;
 }
 p.maincontent {
 	font-family: 'Lato', sans-serif;
 	font-size: 2em;
 	padding left:4em;
 	line-height:1em;
+	color:#FF5749;
 	
 }
 span {
@@ -43,24 +70,14 @@ span {
 	padding:.5em;
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
-	font-size:2.5em;
+	font-size:1em;
 	
 }
 img {
 	float:left;
-	margin:1em;
-	width:8em;
+	margin:2em;
+	width:6em;
 }
-nav.navbar {
-	background-color:rgba(243,84,73,.5)
-	font-family:'Lato', sans-serif;
-	float:right;
-}
-.clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
-}
+
+
 
