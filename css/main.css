@@ -41,13 +41,14 @@ hr  {
 	width: 60%;
 	margin-left:auto;
 	margin-right:auto;
-	color:#29BD79;
+	border-color:#29BD79;
 	
 }
-.wrapper {
-	margin:2em;
+#wrapper {
+	margin:0 auto;
+	max-width:1200px;
 }
-.maincontent {
+.maincontent p {
 	width:58%;
 	padding:2%;
 	float:left;
@@ -55,7 +56,7 @@ hr  {
 	text-align:left;
 	margin-right:none;
 }
-.image{
+.maincontent img {
 	width:34%;
 	float:right;
 	margin-right:4em;
@@ -63,7 +64,7 @@ hr  {
 p {
 	font-family: 'Lato', sans-serif;
 	font-size: 2.5em;
-	line-height:1em;
+	line-height:1.25em;
 	color:#FF5749;
 	margin-top: 2em;
 	
