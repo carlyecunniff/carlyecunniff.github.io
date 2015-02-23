@@ -7,7 +7,7 @@ header {
 	margin-top: .5em;
 	color:#FF5749;
 }
-img {
+header img {
 	float:left;
 	margin:2em;
 	width:6em;
@@ -49,17 +49,16 @@ hr  {
 	max-width:1200px;
 }
 .maincontent p {
-	width:58%;
-	padding:2%;
+	width:65%;
+	padding:1em;
 	float:left;
-	margin-left:2em;
+	margin:0;
 	text-align:left;
-	margin-right:none;
 }
 .maincontent img {
-	width:34%;
-	float:right;
-	margin-right:4em;
+	width:35%;
+	float:left;
+	padding:1em;
 }
 p {
 	font-family: 'Lato', sans-serif;
