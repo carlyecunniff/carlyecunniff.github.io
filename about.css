@@ -1,0 +1,41 @@
+header {
+	margin-top: .5em;
+	color:#FF5749;
+}
+header img {
+	float:left;
+	margin:2em;
+	width:6em;
+}
+
+h1 {
+	font-family:'Playfair Display', serif;
+	font-size:3em;
+	float:left;
+	margin-top: 2em;
+	
+}
+.navbar {
+	float:right;
+	list-style:none;
+	padding:1em;
+	margin:1em;
+}
+.navbar a{
+	padding:1em;
+	font-family:'Lato', sans-serif;
+	color:#FF5749;
+	text-decoration:none;
+	font-size:1.5em;
+}
+.navbar a:hover {
+	color: #29BD79;
+}
+hr  {
+	clear:both;
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	border-color:#29BD79;
+	
+}

@@ -2,7 +2,7 @@
 
 
 body {
-	background-image:"../images/carlye_typewriter.jpg";
+	background:"../images/carlye_typewriter.jpg";
 }
 header {
 	margin-top: .5em;
@@ -32,7 +32,7 @@ h1 {
 	font-family:'Lato', sans-serif;
 	color:#FF5749;
 	text-decoration:none;
-	font-size:1em;
+	font-size:1.5em;
 }
 .navbar a:hover {
 	color: #29BD79;
