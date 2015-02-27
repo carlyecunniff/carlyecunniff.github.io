@@ -2,8 +2,9 @@
 
 
 body {
-	background:"../images/carlye_typewriter.jpg";
-}
+	background-image: "..images/carlye_typewriter.jpg";
+	
+	}
 header {
 	margin-top: .5em;
 	color:#FF5749;
@@ -48,6 +49,7 @@ hr  {
 #wrapper {
 	margin:0 auto;
 	max-width:1200px;
+
 }
 .maincontent p {
 	width:65%;
@@ -56,11 +58,7 @@ hr  {
 	margin:0;
 	text-align:left;
 }
-.maincontent img {
-	width:35%;
-	float:left;
-	padding:1em;
-}
+
 p {
 	font-family: 'Lato', sans-serif;
 	font-size: 2.5em;
