@@ -1,40 +1,37 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 
 body {
-	background-image: url(../images/carlye_typewriter.jpg);
+	background-image:url(../images/carlye_typewriter.jpg);
+	background-attachment:fixed;
+	background-position:center;
 	background-repeat:none;
 	background-size:cover;
-	background-position:bottom;
 }
 #wrapper {
 	margin:0 auto;
 	max-width:1200px;
 
 }
-
-header {
-	margin-top: .5em;
-	color:black;
-}
 header img {
 	float:left;
 	margin:2em;
 	width:16em;
 	height:8em;
-
+	
 	
 }
 .navbar {
+	background-color:rgba(245, 86, 73, 0.50);
 	float:right;
 	list-style:none;
 	padding:1em;
 	margin:1em;
-	background-color:rgba(255, 255, 255, 0.75);
+	
 }
 .navbar a{
 	padding:1em;
 	font-family:'Lato', sans-serif;
-	color: #696969;
+	color: white;
 	text-decoration:none;
 	font-size:1.5em;
 }
@@ -45,12 +42,12 @@ header img {
 
 .maincontent p {
 	clear:both;
-	width:65%;
+	width:62%;
 	padding:1em;
 	float:left;
 	margin:0;
 	text-align:left;
-	background-color:rgba(255, 255, 255, 0.75);
+	background-color:rgba(245, 86, 73, 0.50);
 	
 }
 
@@ -58,20 +55,25 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-size: 2.5em;
 	line-height:1.25em;
-	color:#696969;
+	color:white;
 	margin-top: 2em;
 	
 }
 p a{
-	color:#696969;
+	color:white;
 	text-decoration: none;
 	font-family:'Lato', sans-serif;
-	color:#FF5749;
+	
+
+}
+p a:hover{
+	color: #FF5749;
 
 }
 span {
-	color:#FF5749;
-	font-family:'Lato', sans-serif;
+	color:white;
+	font-family:'Playfair Display', serif;
+	font-style:italic;
 	letter-spacing:.05em;
 
 }
