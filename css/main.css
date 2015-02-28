@@ -2,12 +2,12 @@
 
 
 body {
-	background-image: ".. /images/carlye_typewriter.jpg";
+	
 	
 	}
 header {
 	margin-top: .5em;
-	color:#FF5749;
+	color:black;
 }
 header img {
 	float:left;
@@ -25,18 +25,14 @@ header img {
 .navbar a{
 	padding:1em;
 	font-family:'Lato', sans-serif;
-	color:#FF5749;
+	color: #696969;
 	text-decoration:none;
 	font-size:1.5em;
 }
 .navbar a:hover {
-	color: #29BD79;
+	color: #FF5749;
 }
-hr  {
-	clear:both;
-	width: 60%;
-	margin-left:25em;
-	border-color:#29BD79;
+
 	
 }
 #wrapper {
@@ -45,6 +41,7 @@ hr  {
 
 }
 .maincontent p {
+	clear:both;
 	width:65%;
 	padding:1em;
 	float:left;
@@ -56,18 +53,32 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-size: 2.5em;
 	line-height:1.25em;
-	color:#FF5749;
+	color:#696969;
 	margin-top: 2em;
 	
 }
 span {
 	color:#FF5749;
-	font-family: 'Playfair Display', serif;
-	font-style:italic;
+	font-family:'Lato', sans-serif;
 	letter-spacing:.05em;
 
 }
-
+footer {
+	clear:both;
+	font-family: 'Lato', sans-serif;
+	color: #696969;
+	text-decoration:none; 
+	font-size:2em;
+	margin-left:1.5em;
+}
+footer a{
+	color:#696969;
+	text-decoration: none;
+	font-family:'Lato', sans-serif;
+}
+footer a:hover {
+	color:#FF5749;
+}
 
 
 
