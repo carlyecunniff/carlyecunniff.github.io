@@ -1,12 +1,17 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 
-
 body {
-	background-image:url(../images/carlye_typewriter.jpg);
+	background-image: url(../images/carlye_typewriter.jpg);
 	background-repeat:none;
-	background-attachment:fixed;
 	background-size:cover;
-	}
+	background-position:bottom;
+}
+#wrapper {
+	margin:0 auto;
+	max-width:1200px;
+
+}
+
 header {
 	margin-top: .5em;
 	color:black;
@@ -16,6 +21,7 @@ header img {
 	margin:2em;
 	width:16em;
 	height:8em;
+
 	
 }
 .navbar {
@@ -23,7 +29,7 @@ header img {
 	list-style:none;
 	padding:1em;
 	margin:1em;
-	background-color:#FF5749;
+	background-color:rgba(255, 255, 255, 0.75);
 }
 .navbar a{
 	padding:1em;
@@ -34,15 +40,9 @@ header img {
 }
 .navbar a:hover {
 	color: #FF5749;
-}
-
-	
-}
-#wrapper {
-	margin:0 auto;
-	max-width:1200px;
 
 }
+
 .maincontent p {
 	clear:both;
 	width:65%;
@@ -50,6 +50,8 @@ header img {
 	float:left;
 	margin:0;
 	text-align:left;
+	background-color:rgba(255, 255, 255, 0.75);
+	
 }
 
 p {
@@ -60,26 +62,22 @@ p {
 	margin-top: 2em;
 	
 }
+p a{
+	color:#696969;
+	text-decoration: none;
+	font-family:'Lato', sans-serif;
+	color:#FF5749;
+
+}
 span {
 	color:#FF5749;
 	font-family:'Lato', sans-serif;
 	letter-spacing:.05em;
 
 }
-footer {
-	clear:both;
-	font-family: 'Lato', sans-serif;
-	color: #696969;
-	text-decoration:none; 
-	font-size:2em;
-	margin-left:1.5em;
-}
-footer a{
-	color:#696969;
-	text-decoration: none;
-	font-family:'Lato', sans-serif;
-	color:#FF5749;
-}
+
+
+
 
 
 
