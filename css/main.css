@@ -2,8 +2,10 @@
 
 
 body {
-	
-	
+	background-image:url(../images/carlye_typewriter.jpg);
+	background-repeat:none;
+	background-attachment:fixed;
+	background-size:cover;
 	}
 header {
 	margin-top: .5em;
@@ -21,6 +23,7 @@ header img {
 	list-style:none;
 	padding:1em;
 	margin:1em;
+	background-color:#FF5749;
 }
 .navbar a{
 	padding:1em;
@@ -75,10 +78,10 @@ footer a{
 	color:#696969;
 	text-decoration: none;
 	font-family:'Lato', sans-serif;
-}
-footer a:hover {
 	color:#FF5749;
 }
+
+
 
 
 
