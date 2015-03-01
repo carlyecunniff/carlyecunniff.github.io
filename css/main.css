@@ -101,38 +101,44 @@ img.webdesign {
 img.webdesign:hover{
 	background-color:rgb(245, 86,73);
 }
+.social {
+	float:right;
+	
+
+}
 img.twitter{
 	background-color:rgba(245,86,73,0.5);
+	width:2.5em;
+	height:2.5em;
+	padding:.5em;
 	float:right;
-	width:3em;
-	height:3em;
-	margin-top:.5em;
-	margin-right:15em;
-	display:block;
+	clear:right;
+	margin-right:4em;
+	margin-top:1em;
+
 }
 img.facebook{
 	background-color:rgba(245,86,73,0.5);
-	float:right;
-	clear:both;
-	width:2em;
-	height:2em;
-	margin-top:.5em;
-	margin-right:15em;
-	display:block;
+	width:2.5em;
+	height:2.5em;
+	padding:.5em;
+	margin-top:1em;
+	margin-right:1em;
 
-	
 }
+
 img.linkedin {
 	background-color:rgba(245,86,73,0.5);
+	width:2.5em;
+	height:2.5em;
+	padding:.5em;
 	float:right;
-	clear:right;
-	width:2em;
-	height:2em;
-	margin-top:.5em;
-	margin-right:15em;
-	display:block;
+	margin-top:1em;
+	margin-right:1em;
+	
 	
 }
+
 
 
 
