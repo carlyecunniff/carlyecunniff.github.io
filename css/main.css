@@ -62,9 +62,8 @@ p {
 p a{
 	color:white;
 	text-decoration: none;
-	font-family:'Lato', sans-serif;
-	
-
+	font-family:'Playfair Display', serif;
+	font-style:italic;
 }
 p a:hover{
 	color: #FF5749;
@@ -76,6 +75,14 @@ span {
 	font-style:italic;
 	letter-spacing:.05em;
 
+}
+img.writing {
+	width:10em;
+	height:auto;
+}
+img.webdesign {
+	width:10em;
+	height:auto;
 }
 
 
