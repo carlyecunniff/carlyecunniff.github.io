@@ -78,13 +78,61 @@ span {
 }
 img.writing {
 	width:10em;
-	height:auto;
+	height:10em;
+	float:right;
+	margin-top:1.5em;
+	margin-right:4em;
+	margin-left:1em;
+	background-color:rgba(245, 86, 73, 0.5);
+	padding:1em;
+
+}
+img.writing:hover{
+	background-color:rgb(245,86,73);
 }
 img.webdesign {
 	width:10em;
-	height:auto;
+	height:10em;
+	float:right;
+	margin-top:1.5em;
+	background-color:rgba(245, 86, 73, 0.5);
+	padding:1em;
 }
+img.webdesign:hover{
+	background-color:rgb(245, 86,73);
+}
+img.twitter{
+	background-color:rgba(245,86,73,0.5);
+	float:right;
+	width:3em;
+	height:3em;
+	margin-top:.5em;
+	margin-right:15em;
+	display:block;
+}
+img.facebook{
+	background-color:rgba(245,86,73,0.5);
+	float:right;
+	clear:both;
+	width:2em;
+	height:2em;
+	margin-top:.5em;
+	margin-right:15em;
+	display:block;
 
+	
+}
+img.linkedin {
+	background-color:rgba(245,86,73,0.5);
+	float:right;
+	clear:right;
+	width:2em;
+	height:2em;
+	margin-top:.5em;
+	margin-right:15em;
+	display:block;
+	
+}
 
 
 
