@@ -75,34 +75,12 @@ span {
 	font-style:italic;
 	letter-spacing:.05em;
 
-}
-img.writing {
-	width:10em;
-	height:10em;
-	float:right;
-	margin-top:1.5em;
-	margin-right:4em;
-	margin-left:1em;
-	background-color:rgba(245, 86, 73, 0.5);
-	padding:1em;
 
 }
-img.writing:hover{
-	background-color:rgb(245,86,73);
-}
-img.webdesign {
-	width:10em;
-	height:10em;
-	float:right;
-	margin-top:1.5em;
-	background-color:rgba(245, 86, 73, 0.5);
-	padding:1em;
-}
-img.webdesign:hover{
-	background-color:rgb(245, 86,73);
-}
+
 .social {
-	float:right;
+	clear:both;
+	float:left;
 	
 
 }
@@ -137,6 +115,9 @@ img.linkedin {
 	margin-right:1em;
 	
 	
+}
+.about {
+	background-color:white;
 }
 
 
