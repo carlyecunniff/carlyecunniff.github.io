@@ -84,10 +84,13 @@ span {
 	
 
 }
+.social img:hover{
+	background-color:rgb(245,86,73);
+}
 img.twitter{
 	background-color:rgba(245,86,73,0.5);
-	width:2.5em;
-	height:2.5em;
+	width:3.5em;
+	height:3.5em;
 	padding:.5em;
 	float:right;
 	clear:right;
@@ -97,8 +100,8 @@ img.twitter{
 }
 img.facebook{
 	background-color:rgba(245,86,73,0.5);
-	width:2.5em;
-	height:2.5em;
+	width:3.5em;
+	height:3.5em;
 	padding:.5em;
 	margin-top:1em;
 	margin-right:1em;
@@ -107,8 +110,8 @@ img.facebook{
 
 img.linkedin {
 	background-color:rgba(245,86,73,0.5);
-	width:2.5em;
-	height:2.5em;
+	width:3.5em;
+	height:3.5em;
 	padding:.5em;
 	float:right;
 	margin-top:1em;
@@ -116,9 +119,7 @@ img.linkedin {
 	
 	
 }
-.about {
-	background-color:white;
-}
+
 
 
 
