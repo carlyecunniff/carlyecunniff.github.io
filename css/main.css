@@ -12,6 +12,9 @@ body {
 	max-width:1200px;
 
 }
+header {
+	background-color:black;
+}
 header img {
 	float:left;
 	margin:2em;
@@ -121,7 +124,75 @@ img.linkedin {
 }
 #about  {
 	background-image:url(../images/lifestyle.jpg);
+	background-position:top;
 }
+
+section.mainabout {
+	background-color:rgba(245,86,73,0.5);
+	font-size:.5em;
+	width:40%;
+	padding:1em;
+	float:right;
+	text-align:justify;
+	margin-top:5em;
+	margin-right:2em;
+}
+section.carlyepic {
+	clear:left;
+	float:left;
+	background-color:rgba(245,86,73,0.5);
+	margin-top:2em;
+	margin-left:4em;
+
+}
+section.carlyepic img {
+	width:20em;
+	height:auto;
+	padding:1em;
+	
+}
+.socialabout{
+	clear:both;
+	float:right;
+	margin-top:2em;
+	margin-right:4em;
+}
+.socialabout img:hover{
+	background-color:rgb(245,86,73);
+}
+img.twitter{
+	background-color:rgba(245,86,73,0.5);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	float:right;
+	clear:right;
+	margin-right:4em;
+	margin-top:1em;
+
+}
+img.facebook{
+	background-color:rgba(245,86,73,0.5);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	margin-top:1em;
+	margin-right:1em;
+
+}
+
+img.linkedin {
+	background-color:rgba(245,86,73,0.5);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	float:right;
+	margin-top:1em;
+	margin-right:1em;
+	
+	
+}
+
 
 
 
