@@ -12,9 +12,7 @@ body {
 	max-width:1200px;
 
 }
-header {
-	background-color:black;
-}
+
 header img {
 	float:left;
 	margin:2em;
@@ -24,7 +22,7 @@ header img {
 	
 }
 .navbar {
-	background-color:rgba(245, 86, 73, 0.50);
+	background-color:rgba(245, 86, 73, 0.75);
 	float:right;
 	list-style:none;
 	padding:1em;
@@ -48,9 +46,9 @@ header img {
 	width:62%;
 	padding:1em;
 	float:left;
-	margin:0;
+	margin-left:2em;
 	text-align:left;
-	background-color:rgba(245, 86, 73, 0.50);
+	background-color:rgba(245, 86, 73, 0.90);
 	
 }
 
@@ -128,7 +126,7 @@ img.linkedin {
 }
 
 section.mainabout {
-	background-color:rgba(245,86,73,0.5);
+	background-color:rgba(245,86,73,0.75);
 	font-size:.5em;
 	width:40%;
 	padding:1em;
@@ -140,7 +138,7 @@ section.mainabout {
 section.carlyepic {
 	clear:left;
 	float:left;
-	background-color:rgba(245,86,73,0.5);
+	background-color:rgba(245,86,73,0.75);
 	margin-top:2em;
 	margin-left:4em;
 
@@ -161,7 +159,7 @@ section.carlyepic img {
 	background-color:rgb(245,86,73);
 }
 img.twitter{
-	background-color:rgba(245,86,73,0.5);
+	background-color:rgba(245,86,73,0.75);
 	width:3.5em;
 	height:3.5em;
 	padding:.5em;
@@ -172,7 +170,7 @@ img.twitter{
 
 }
 img.facebook{
-	background-color:rgba(245,86,73,0.5);
+	background-color:rgba(245,86,73,0.75);
 	width:3.5em;
 	height:3.5em;
 	padding:.5em;
@@ -182,7 +180,7 @@ img.facebook{
 }
 
 img.linkedin {
-	background-color:rgba(245,86,73,0.5);
+	background-color:rgba(245,86,73,0.75);
 	width:3.5em;
 	height:3.5em;
 	padding:.5em;
@@ -192,7 +190,22 @@ img.linkedin {
 	
 	
 }
-
+.facts {
+	background-color:rgba(245,86,73,0.75);
+	clear:left;
+	float:left;
+	width:28%;
+	color:white;
+	margin-left:4em;
+	margin-top:1em;
+	padding:1em;
+}
+p.random {
+	font-size:1.5em;
+}
+.facts p {
+	font-size:1em;
+}
 
 
 
