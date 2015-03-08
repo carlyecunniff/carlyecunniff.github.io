@@ -236,13 +236,24 @@ p.random {
 #work {
 	background: white;
 }
+h2 {
+	clear:left;
+	float:left;
+	color:black;
+	font-family:'Playfair Display', serif;
+	font-style:italic;
+	font-size:2em;
+}
 
 .portfolio img {
 	width:30em;
 	height:auto;
 	padding:1em;
 	background-color:rgba(245,86,73,0.75);
-	margin:1em;
+	margin-left:2em;
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-right:1em;
 
 }
 .portfolio p{
@@ -254,9 +265,12 @@ p.random {
 	float:left;
 }
 .portfolio p {
-	width:30%;
+	width:40%;
 	float:left;
+	font-size:2em;
+	padding:1em;
 }
+
 
 
 
