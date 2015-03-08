@@ -236,13 +236,14 @@ p.random {
 #work {
 	background: white;
 }
-h2 {
+.writingcontent {
 	clear:left;
 	float:left;
-	color:black;
-	font-family:'Playfair Display', serif;
-	font-style:italic;
-	font-size:2em;
+	background-color:rgba(245,86,73,0.75);
+	color:white;
+	font-family:'Lato', sans-serif;
+	font-size:1.5em;
+	padding:1em;
 }
 
 .portfolio img {
@@ -250,10 +251,6 @@ h2 {
 	height:auto;
 	padding:1em;
 	background-color:rgba(245,86,73,0.75);
-	margin-left:2em;
-	margin-top:1em;
-	margin-bottom:1em;
-	margin-right:1em;
 
 }
 .portfolio p{
@@ -265,10 +262,25 @@ h2 {
 	float:left;
 }
 .portfolio p {
-	width:40%;
 	float:left;
 	font-size:2em;
 	padding:1em;
+}
+.food img{
+	margin-top:1em;
+}
+.food p {
+	width:40%;
+	margin-top:.5em;
+	margin-left:1em;
+
+}
+.travel img{
+	margin-top:1.5em;
+}
+.travel p{
+	margin-left:1em;
+	width:50%;
 }
 
 
