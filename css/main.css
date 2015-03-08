@@ -37,7 +37,7 @@ header img {
 	font-size:1.5em;
 }
 .navbar a:hover {
-	color: #FF5749;
+	color:rgb(219,54,41);
 
 }
 
@@ -68,7 +68,7 @@ p a{
 	font-style:italic;
 }
 p a:hover{
-	color: #FF5749;
+	color:rgb(219,54,41);
 
 }
 span {
@@ -88,7 +88,7 @@ span {
 
 }
 .social img:hover{
-	background-color:rgb(245,86,73);
+	background-color:rgb(219,54,41);
 }
 img.twitter{
 	background-color:rgba(245,86,73,0.5);
@@ -158,7 +158,7 @@ section.carlyepic img {
 	margin-right:4em;
 }
 .socialabout img:hover{
-	background-color:rgb(245,86,73);
+	background-color:rgb(219,54,41);
 }
 img.twitter{
 	background-color:rgba(245,86,73,0.75);
@@ -208,7 +208,30 @@ p.random {
 .facts p {
 	font-size:1em;
 }
+#contact {
+	background-image:url(../images/contactme.jpg);
+}
+.contact {
+	width:40%;
+	height:30%;
+	background-color:rgba(245,86,73,0.75);
+	clear:both;
+	font-size:.5em;
+	padding:1em;
+	margin-left:2em;
 
+}
+.contact p{
+	margin:0;
+	line-height:1.5em;
+}
+.socialcontact {
+	clear:left;
+	float:left;
+	margin-left:2em;
+}
+.socialcontact img:hover{
+	background-color:rgb(219,54,41);
 
 
 
