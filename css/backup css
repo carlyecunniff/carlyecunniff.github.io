@@ -1,0 +1,40 @@
+.food img {
+	clear:left;
+	float:left;
+}
+.food p{
+	width:30%;
+	float:left;
+}
+.travel img{
+	clear:left;
+	float:left;
+}
+.travel p{
+	width:30%;
+	float:left;
+}
+.dance img{
+	clear:left;
+	float:left;
+}
+.dance p{
+	width:30%;
+	float:left;
+}
+.lifestyle img{
+	clear:left;
+	float:left;
+}
+.lifestyle p{
+	width:30%;
+	float:left;
+}
+.business img{
+	clear:both;
+	float:left;
+}
+.business p{
+	width:30%;
+	float:left;
+}

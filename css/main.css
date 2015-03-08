@@ -232,10 +232,31 @@ p.random {
 }
 .socialcontact img:hover{
 	background-color:rgb(219,54,41);
+}
+#work {
+	background: white;
+}
 
+.portfolio img {
+	width:30em;
+	height:auto;
+	padding:1em;
+	background-color:rgba(245,86,73,0.75);
+	margin:1em;
 
-
-
+}
+.portfolio p{
+	color:white;
+	background-color:rgba(245,86,73,0.75);
+}
+.portfolio img {
+	clear:left;
+	float:left;
+}
+.portfolio p {
+	width:30%;
+	float:left;
+}
 
 
 
