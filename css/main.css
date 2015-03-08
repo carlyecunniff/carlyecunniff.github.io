@@ -46,7 +46,8 @@ header img {
 	width:62%;
 	padding:1em;
 	float:left;
-	margin-left:2em;
+	margin-left:1em;
+	margin-top:1em;
 	text-align:left;
 	background-color:rgba(245, 86, 73, 0.90);
 	
@@ -82,6 +83,7 @@ span {
 .social {
 	clear:both;
 	float:left;
+	margin-left:2.5em;
 	
 
 }
@@ -152,7 +154,7 @@ section.carlyepic img {
 .socialabout{
 	clear:both;
 	float:right;
-	margin-top:2em;
+	margin-top:.5em;
 	margin-right:4em;
 }
 .socialabout img:hover{
