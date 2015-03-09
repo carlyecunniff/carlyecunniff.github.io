@@ -244,44 +244,43 @@ p.random {
 	font-family:'Lato', sans-serif;
 	font-size:1.5em;
 	padding:1em;
-}
+	margin:1em;
 
-.portfolio img {
-	width:30em;
+}
+ .portfolio img {
+ 	display:block;
+ 	width:30em;
 	height:auto;
 	padding:1em;
 	background-color:rgba(245,86,73,0.75);
+	margin-top:1em;
+	margin-right:auto;
+	margin-left:auto;
+ }
 
-}
 .portfolio p{
 	color:white;
 	background-color:rgba(245,86,73,0.75);
-}
-.portfolio img {
-	clear:left;
-	float:left;
-}
-.portfolio p {
-	float:left;
-	font-size:2em;
+	font-size:1em;
 	padding:1em;
-}
-.food img{
+	width:30em;
 	margin-top:1em;
+	margin-right:auto;
+	margin-left:auto;
 }
-.food p {
-	width:40%;
-	margin-top:.5em;
-	margin-left:1em;
+
+.business p{
+	margin-bottom:1em;
 
 }
-.travel img{
-	margin-top:1.5em;
-}
-.travel p{
-	margin-left:1em;
-	width:50%;
-}
+	
+
+
+
+
+	
+
+
 
 
 
