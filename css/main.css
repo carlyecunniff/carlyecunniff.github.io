@@ -236,6 +236,11 @@ p.random {
 #work {
 	background: white;
 }
+.socialwork {
+	clear:both;
+	float:right;
+	margin-top:-3em;
+}
 .writingcontent {
 	clear:left;
 	float:left;
