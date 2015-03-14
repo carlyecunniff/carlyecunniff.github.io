@@ -286,7 +286,7 @@ p.random {
 	margin-bottom:1em;
 
 }
-@media only screen and (max-width: 935px){
+@media only screen and (max-width: 935px) and (min-width: 711px){
 	.navbar {
 		float:left;
 		margin:2em;
@@ -297,6 +297,24 @@ p.random {
 	.social {
 		margin:1em;
 
+	}
+}
+@media only screen and (max-width: 711px){
+	body {
+		background: white;
+		font-size:18px;
+	}
+	#wrapper {
+		max-width:95%;
+	}
+	.maincontent p{
+		margin:auto;
+		min-width:85%;
+
+	}
+	header img{
+		display:block;
+		margin:3em;
 	}
 }
 	
