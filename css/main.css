@@ -234,7 +234,7 @@ p.random {
 	background-color:rgb(219,54,41);
 }
 #work {
-	background: white;
+	background-image:url(..images/writing.jpg);
 }
 .socialwork {
 	clear:both;
@@ -252,36 +252,52 @@ p.random {
 	margin:1em;
 
 }
-.portfolio img {
- 	display:block;
- 	width:30em;
-	height:auto;
-	padding:1em;
+.portfolio {
+	clear:both;
 	background-color:rgba(245,86,73,0.75);
-	margin-top:1em;
-	margin-right:auto;
-	margin-left:auto;
- }
- .food img {
- 	display:block;
- 	margin-right:auto;
- 	margin-left:auto;
- }
+	max-width:60%;
+	margin:auto;
+	line-height:.5em;
+}
+.portfolio h3{
+	text-align:center;
+	margin-top:1.5em;
+	color:white;
+	font-family:'Playfair Display', serif;
+	font-style:italic;
+	padding:.5em;
+	font-size: 2em
+
+}
 
 .portfolio p{
 	color:white;
-	background-color:rgba(245,86,73,0.75);
-	font-size:1em;
-	padding:1em;
+	font-size:1.5em;
+	padding:.5em;
 	width:30em;
 	margin-top:1em;
 	margin-right:auto;
 	margin-left:auto;
+	border-bottom:1.5px solid;
 }
 
 .business p{
+	padding-bottom:1em;
 	margin-bottom:1em;
 
+}
+@media only screen and (max-width: 935px){
+	.navbar {
+		float:left;
+		margin:2em;
+		}
+	.header img {
+		position:center;
+	}
+	.social {
+		margin:1em;
+
+	}
 }
 	
 
