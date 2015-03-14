@@ -301,22 +301,26 @@ p.random {
 }
 @media only screen and (max-width: 711px){
 	body {
-		background: white;
+		background: rgb(204,204,204);
 		font-size:12px;
 	}
 	#wrapper {
-		max-width:90%;
+		max-width:100%;
 	}
 	.maincontent p{
 		max-width:87%;
-		margin:auto;
+		margin:3em;
 		
 	}
 	header img{
-		width:8em;
+		width:10em;
 		height:auto;
 		display:block;
 		margin:3em;
+	}
+	.social {
+		margin-right:5em;
+		margin-left:5em;
 	}
 }
 	
