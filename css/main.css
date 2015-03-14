@@ -302,17 +302,19 @@ p.random {
 @media only screen and (max-width: 711px){
 	body {
 		background: white;
-		font-size:18px;
+		font-size:14px;
 	}
 	#wrapper {
-		max-width:95%;
+		max-width:90%;
 	}
 	.maincontent p{
 		margin:auto;
-		min-width:85%;
+		
 
 	}
 	header img{
+		width:8em;
+		height:auto;
 		display:block;
 		margin:3em;
 	}
