@@ -302,15 +302,15 @@ p.random {
 @media only screen and (max-width: 711px){
 	body {
 		background: white;
-		font-size:14px;
+		font-size:12px;
 	}
 	#wrapper {
 		max-width:90%;
 	}
 	.maincontent p{
+		max-width:87%;
 		margin:auto;
 		
-
 	}
 	header img{
 		width:8em;
