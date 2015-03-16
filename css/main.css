@@ -296,12 +296,16 @@ p.random {
 	margin: 0 auto;
 }
 .headerpan {
-	background:#7B0A3A;
+	background:white;
 	min-height:10em;
+	border:solid 6px;
+	border-left:transparent;
+	border-right:transparent;
+	margin-top:1em;
 }
 h1, h2 {
 	padding:.5em;
-	color:white;
+	color:black;
 
 }
 h1 {
@@ -313,14 +317,14 @@ h1 {
 	min-width:1200px;
 }
 .top a {
-	background:#7B0A3A;
+	background:white;
 	float:right;
 	text-decoration:none;
 	padding:1em;
-	color: white;
+	color: #7B0A3A;
 	font-family:'Shadows Into Light Two';
 	font-size:1.5em;
-	margin-top:-1em;
+	margin-top:-3em;
 	
 }
 .left {
@@ -348,6 +352,7 @@ h1 {
 	color:#7B0A3A;
 	padding:.5em;
 	margin-top:-4em;
+	margin-right:2em;
 
 }
 .right img {
@@ -355,18 +360,32 @@ h1 {
 	height:auto;
 	border-radius:7.5em;
 	float:right;
-	margin-right:1em;
+	margin-right:3em;
 }
 .side {
 	position:relative;
 	display:block;
 	clear:both;
 	float:right;
+	font-family:'Shadows Into Light Two';
+	font-size:2em;
+	margin-right:3em;
+	margin-top:1em;
+	padding:1em;
+	
+	
+}
+.side a{
+	text-decoration:none;
+	color:#7B0A3A;
 }
 .bioblurb {
 	max-width:10em;
 	color:#7B0A3A;
 	float:right;
+	font-size:1.5em;
+	margin-right:3em;
+	margin-top:1em;
 }
 
 @media only screen and (max-width: 935px) and (min-width: 711px){
