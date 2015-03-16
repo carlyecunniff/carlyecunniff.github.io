@@ -212,13 +212,16 @@ p.random {
 	background-image:url(../images/contactme.jpg);
 }
 .contact {
-	width:40%;
+	width:60%;
 	height:30%;
 	background-color:rgba(245,86,73,0.75);
 	clear:both;
-	font-size:.5em;
+	font-size:1em;
 	padding:1em;
 	margin-left:2em;
+	border: 3px solid;
+	color:white;
+	border-bottom-right-radius: 3em;
 
 }
 .contact p{
