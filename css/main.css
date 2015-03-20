@@ -237,7 +237,8 @@ p.random {
 	background-color:rgb(219,54,41);
 }
 #work {
-	background-image:url(..images/writing.jpg);
+	background-image:url(../images/writing.jpg);
+	background-position:center;
 }
 .socialwork {
 	clear:both;
