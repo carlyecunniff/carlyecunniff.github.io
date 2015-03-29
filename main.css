@@ -1,8 +1,428 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+
 body {
-	background-color: Aquamarine;
+	background-image:url(../images/carlye_typewriter.jpg);
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:none;
+	background-size:cover;
+}
+#wrapper {
+	margin:0 auto;
+	max-width:1200px;
+
 }
 
-h1, p {
-	color: Salmon;
+header img {
+	float:left;
+	margin:2em;
+	width:16em;
+	height:8em;
+	
+	
+}
+.navbar {
+	background-color:rgba(245, 86, 73, 0.75);
+	float:right;
+	list-style:none;
+	padding:1em;
+	margin:1em;
+	
+}
+.navbar a{
+	padding:1em;
+	font-family:'Lato', sans-serif;
+	color: white;
+	text-decoration:none;
+	font-size:1.5em;
+}
+.navbar a:hover {
+	color:rgb(219,54,41);
+
 }
 
+.maincontent p {
+	clear:both;
+	width:62%;
+	padding:1em;
+	float:left;
+	margin-left:1em;
+	margin-top:1em;
+	text-align:left;
+	background-color:rgba(245, 86, 73, 0.90);
+	
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	line-height:1.25em;
+	color:white;
+	margin-top: 2em;
+	
+}
+p a{
+	color:white;
+	text-decoration: none;
+	font-family:'Playfair Display', serif;
+	font-style:italic;
+}
+p a:hover{
+	color:rgb(219,54,41);
+
+}
+span {
+	color:white;
+	font-family:'Playfair Display', serif;
+	font-style:italic;
+	letter-spacing:.05em;
+
+
+}
+
+.social {
+	clear:both;
+	float:left;
+	margin-left:2.5em;
+	
+
+}
+.social img:hover{
+	background-color:rgb(219,54,41);
+}
+img.twitter{
+	background-color:rgba(245,86,73,0.5);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	float:right;
+	clear:right;
+	margin-right:4em;
+	margin-top:1em;
+
+}
+img.facebook{
+	background-color:rgba(245,86,73,0.5);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	margin-top:1em;
+	margin-right:1em;
+
+}
+
+img.linkedin {
+	background-color:rgba(245,86,73,0.5);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	float:right;
+	margin-top:1em;
+	margin-right:1em;
+	
+	
+}
+#about  {
+	background-image:url(../images/lifestyle.jpg);
+	background-position:top;
+}
+
+section.mainabout {
+	background-color:rgba(245,86,73,0.75);
+	font-size:.5em;
+	width:40%;
+	padding:1em;
+	float:right;
+	text-align:justify;
+	margin-top:5em;
+	margin-right:2em;
+}
+section.carlyepic {
+	clear:left;
+	float:left;
+	background-color:rgba(245,86,73,0.75);
+	margin-top:2em;
+	margin-left:4em;
+
+}
+section.carlyepic img {
+	width:20em;
+	height:auto;
+	padding:1em;
+	
+}
+.socialabout{
+	clear:both;
+	float:right;
+	margin-top:.5em;
+	margin-right:4em;
+}
+.socialabout img:hover{
+	background-color:rgb(219,54,41);
+}
+img.twitter{
+	background-color:rgba(245,86,73,0.75);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	float:right;
+	clear:right;
+	margin-right:4em;
+	margin-top:1em;
+
+}
+img.facebook{
+	background-color:rgba(245,86,73,0.75);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	margin-top:1em;
+	margin-right:1em;
+
+}
+
+img.linkedin {
+	background-color:rgba(245,86,73,0.75);
+	width:3.5em;
+	height:3.5em;
+	padding:.5em;
+	float:right;
+	margin-top:1em;
+	margin-right:1em;
+	
+	
+}
+.facts {
+	background-color:rgba(245,86,73,0.75);
+	clear:left;
+	float:left;
+	width:28%;
+	color:white;
+	margin-left:4em;
+	margin-top:1em;
+	padding:1em;
+}
+p.random {
+	font-size:1.5em;
+}
+.facts p {
+	font-size:1em;
+}
+#contact {
+	background-image:url(../images/contactme.jpg);
+}
+.contact {
+	width:60%;
+	height:30%;
+	background-color:rgba(245,86,73,0.75);
+	clear:both;
+	font-size:1em;
+	padding:1em;
+	margin-left:2em;
+	border: 3px solid;
+	color:white;
+	border-bottom-right-radius: 3em;
+
+}
+.contact p{
+	margin:0;
+	line-height:1.5em;
+}
+.socialcontact {
+	clear:left;
+	float:left;
+	margin-left:2em;
+}
+.socialcontact img:hover{
+	background-color:rgb(219,54,41);
+}
+#work {
+	background-image:url(../images/writing.jpg);
+	background-position:center;
+}
+.socialwork {
+	clear:both;
+	float:right;
+	margin-top:-3em;
+}
+.writingcontent {
+	clear:left;
+	float:left;
+	background-color:rgba(245,86,73,0.75);
+	color:white;
+	font-family:'Lato', sans-serif;
+	font-size:1.5em;
+	padding:1em;
+	margin:1em;
+
+}
+.portfolio {
+	clear:both;
+	background-color:rgba(245,86,73,0.75);
+	max-width:60%;
+	margin:auto;
+	line-height:.5em;
+}
+.portfolio h3{
+	text-align:center;
+	margin-top:1.5em;
+	color:white;
+	font-family:'Playfair Display', serif;
+	font-style:italic;
+	padding:.5em;
+	font-size: 2em
+
+}
+
+.portfolio p{
+	color:white;
+	font-size:1.5em;
+	padding:.5em;
+	width:30em;
+	margin-top:1em;
+	margin-right:auto;
+	margin-left:auto;
+	border-bottom:1.5px solid;
+}
+
+.business p{
+	padding-bottom:1em;
+	margin-bottom:1em;
+
+}
+.panlanding {
+	color:#7B0A3A;
+	background:white;
+	max-width:1200px;
+	margin: 0 auto;
+}
+.headerpan {
+	background:white;
+	min-height:10em;
+	border:solid 6px;
+	border-left:transparent;
+	border-right:transparent;
+	margin-top:1em;
+}
+h1, h2 {
+	padding:.5em;
+	color:black;
+
+}
+h1 {
+	margin-top: 1em;
+
+}
+.top {
+	display:block;
+	min-width:1200px;
+}
+.top a {
+	background:white;
+	float:right;
+	text-decoration:none;
+	padding:1em;
+	color: #7B0A3A;
+	font-family:'Shadows Into Light Two';
+	font-size:1.5em;
+	margin-top:-3em;
+	
+}
+.left {
+	color:#7B0A3A;
+	max-width:50%;
+	margin-top:8em;
+
+}
+.left img {
+	width:10em;
+	height:auto;
+}
+.right {
+	margin-top:-1em;
+	max-width:40%;
+	float:right;
+}
+.right button {
+	position:relative;
+	float:right;
+	margin:0 auto;
+	height:2em;
+	font-family:'Shadows Into Light Two';
+	font-size:2em;
+	color:#7B0A3A;
+	padding:.5em;
+	margin-top:-4em;
+	margin-right:2em;
+
+}
+.right img {
+	width: 15em;
+	height:auto;
+	border-radius:7.5em;
+	float:right;
+	margin-right:3em;
+}
+.side {
+	position:relative;
+	display:block;
+	clear:both;
+	float:right;
+	font-family:'Shadows Into Light Two';
+	font-size:2em;
+	margin-right:3em;
+	margin-top:1em;
+	padding:1em;
+	
+	
+}
+.side a{
+	text-decoration:none;
+	color:#7B0A3A;
+}
+.bioblurb {
+	max-width:10em;
+	color:#7B0A3A;
+	float:right;
+	font-size:1.5em;
+	margin-right:3em;
+	margin-top:1em;
+}
+
+@media only screen and (max-width: 935px) and (min-width: 711px){
+	.navbar {
+		float:left;
+		margin:2em;
+		}
+	.header img {
+		position:center;
+	}
+	.social {
+		margin:1em;
+
+	}
+}
+@media only screen and (max-width: 711px){
+	body {
+		background: rgb(204,204,204);
+		font-size:12px;
+	}
+	#wrapper {
+		max-width:100%;
+	}
+	.maincontent p{
+		max-width:87%;
+		margin:3em;
+		
+	}
+	header img{
+		width:10em;
+		height:auto;
+		display:block;
+		margin:3em;
+	}
+	.social {
+		margin-right:5em;
+		margin-left:5em;
+	}
+}
